@@ -1,1 +1,32 @@
 /* add your styles here */
+body {
+	background-image: url(../../.learn/assets/background-vertical.jpg?raw=true);
+	background-repeat: repeat-y;
+	padding-left: 20px;
+}
+
+* {
+	font-family: "Times New Roman";
+}
+
+h1 {
+	font-family: "Courier";
+	color: red;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+body p {
+	background-color: rgba(100, 100, 100, 0.2);
+}
+
+p {
+	padding: 5px;
+}
+
+a:hover {
+	color: green;
+	text-decoration: none;
+}
